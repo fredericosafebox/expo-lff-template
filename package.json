@@ -10,7 +10,7 @@
     "prebuild": "expo prebuild --clean",
     "ts:check": "tsc",
     "lint": "eslint .",
-    "prettier": "prettier --write \"app/**/*.{ts,tsx}\""
+    "prettier": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "dependencies": {
     "expo": "~49.0.15",
