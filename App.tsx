@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
-import HelloView from '@/components/hello';
+import HelloView from '~/components/hello';
 
 export default function App() {
   return (
