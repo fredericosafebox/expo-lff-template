@@ -1,6 +1,14 @@
 {
   "extends": "expo/tsconfig.base",
+  "include": ["**/*.ts", "**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
   "compilerOptions": {
-    "strict": true
+    "strict": true,
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }
